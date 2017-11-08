@@ -124,6 +124,33 @@ public class ContentDetailsFragment extends android.support.v17.leanback.app.Det
     @Override
     public void onStart() {
 
+//        Log.v(TAG, "API level: " + Build.VERSION.SDK_INT);
+//
+//        if(Build.VERSION.SDK_INT <= 21) {
+//            Log.v(TAG, "Result: Yes, it's less than or equal to 21.");
+//        }else{
+//            Log.v(TAG, "Result: No, it's not less than or equal to 21.");
+//        }
+//
+//        if(Build.VERSION.SDK_INT <= 22) {
+//            Log.v(TAG, "Result: Yes, it's less than or equal to 22.");
+//        }else{
+//            Log.v(TAG, "Result: No, it's not less than or equal to 22.");
+//        }
+//
+//        if(Build.VERSION.SDK_INT <= 24) {
+//            Log.v(TAG, "Result: Yes, it's less than or equal to 24.");
+//        }else{
+//            Log.v(TAG, "Result: No, it's not less than or equal to 24.");
+//        }
+//
+//        if(Build.VERSION.SDK_INT <= 25) {
+//            Log.v(TAG, "Result: Yes, it's less than or equal to 25.");
+//        }else{
+//            Log.v(TAG, "Result: No, it's not less than or equal to 25.");
+//        }
+
+
         Log.v(TAG, "onStart called.");
         super.onStart();
         if (mSelectedContent != null || checkGlobalSearchIntent()) {

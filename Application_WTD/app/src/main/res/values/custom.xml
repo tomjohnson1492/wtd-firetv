@@ -66,6 +66,8 @@ permissions and limitations under the License.
     <!-- Company logo -->
     <drawable name="company_logo">@drawable/wtdapplogo</drawable>
     <!-- App icon -->
+    wtdapplogo_banner
+    <drawable name="wtdapplogo_banner">@mipmap/wtdapplogo_banner</drawable>
     <drawable name="app_logo">@mipmap/ic_launcher_wtd</drawable>
     <!-- Content preview window customization -->
     <dimen name="content_image_height">350dp</dimen>
