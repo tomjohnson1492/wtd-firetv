@@ -43,6 +43,8 @@ include ':app',
         ':ImageViewerComponent',
         ':VastAdsComponent',
         ':TVUIComponent',
+        ':comscore',
+        ':ComScoreAnalyticsComponent',
         ':Application'
 
 project(':Utils').projectDir = new File(rootProject.projectDir, "../../Utils")
@@ -75,3 +77,6 @@ project(':ImageViewerComponent').projectDir = new File(rootProject.projectDir, "
 project(':VastAdsComponent').projectDir = new File(rootProject.projectDir, "../../VastAdsComponent")
 project(':Application').projectDir = new File(rootProject.projectDir, "../../Application/app")
 project(':TVUIComponent').projectDir = new File(rootProject.projectDir, "../../TVUIComponent/lib")
+project(':ComScoreAnalyticsComponent').projectDir = new File(rootProject.projectDir, "../../ComScoreAnalyticsComponent")
+project(':comscore').projectDir = new File(rootProject.projectDir, '../../ComScoreAnalyticsComponent/libs/comscore')
+

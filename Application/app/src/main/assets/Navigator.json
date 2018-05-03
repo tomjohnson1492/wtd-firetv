@@ -2,7 +2,9 @@
   "config": {
     "showRelatedContent": true,
     "useCategoryAsDefaultRelatedContent": true,
-    "searchAlgo": "basic"
+    "searchAlgo": "basic",
+    "numberOfGlobalRecommendations": 3,
+    "numberOfRelatedRecommendations": 3
   },
   "branding": {
     "globalTheme": "AppTheme",
@@ -13,21 +15,20 @@
   "globalRecipes": [
     {
       "categories": {
-        "dataLoader": "recipes/LightCastDataLoaderRecipe1.json",
-        "dynamicParser": "recipes/LightCastCategoriesRecipe.json"
+        "dataLoader": "recipes/WTDDataLoaderRecipe1.json",
+        "dynamicParser": "recipes/WTDCategoriesRecipe.json"
       },
       "contents": {
-        "dataLoader": "recipes/LightCastDataLoaderRecipe1.json",
-        "dynamicParser": "recipes/LightCastContentsRecipe.json"
+        "dataLoader": "recipes/WTDDataLoaderRecipe1.json",
+        "dynamicParser": "recipes/WTDContentsRecipe.json"
       }
-    },
+    }
+  ],
+  "recommendationRecipes": [
     {
-      "categories": {
-        "name": "Hardcoded Category Name"
-      },
       "contents": {
-        "dataLoader": "recipes/LightCastDataLoaderRecipe1.json",
-        "dynamicParser": "recipes/LightCastAllContentsRecipe.json"
+        "dataLoader": "recipes/WTDDataLoaderRecipe1.json",
+        "dynamicParser": "recipes/WTDGlobalRecParserRecipe.json"
       }
     }
   ],
